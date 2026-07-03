@@ -154,7 +154,6 @@ This allowed the analysis to connect each job posting with its related skills an
 - Power Pivot
 - DAX
 - Data validation
-- Slicers
 - GitHub
 
 ---
