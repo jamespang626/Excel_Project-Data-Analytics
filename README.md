@@ -1,93 +1,87 @@
-# Excel_Project-Data-Analytics
-My projects demonstrating excel skills
-
 # 📊 Excel Data Analytics Projects
 
-Welcome! This repository contains my Excel data analytics projects focused on **job market trends, salaries, and in-demand skills** for data-related roles.
+This repository contains Excel data analytics projects focused on **job market salaries, skill demand, and data-related career trends**.
 
-These projects were completed as part of my Excel and data analytics learning path. They demonstrate my ability to clean data, build PivotTables, create dashboards, use slicers, analyze salary trends, and present insights clearly.
-
----
-
-## 📁 Repository Structure
-
-| Folder | Description |
-|---|---|
-| `Datasets/` | Source datasets used for the Excel projects |
-| `Project_1/` | Interactive salary dashboard project |
-| `Project_2/` | Job skills and salary analysis project |
+The purpose of this portfolio is to demonstrate my ability to use Excel for data cleaning, analysis, visualization, and dashboard creation. These projects were built using PivotTables, PivotCharts, slicers, Power Query, Power Pivot, DAX, and interactive dashboard design.
 
 ---
 
-## 🚀 Projects
+## 📌 Project Overview
 
-## 1️⃣ Data Science Salary Calculator
+| Project | Description | Skills Demonstrated |
+|---|---|---|
+| [📈 Data Science Salary Dashboard](Project_1_Salary_Dashboard/) | Interactive Excel dashboard for exploring salary trends by job title, country, and employment type | Dashboard design, Excel formulas, charts, data validation, interactive filtering |
+| [🧠 Job Skills & Salary Analysis](Project_2_Job_Skills_Analysis/) | Excel analysis workbook exploring skill demand, salary trends, and job role comparisons | PivotTables, PivotCharts, slicers, Power Pivot, DAX, data modeling |
 
-📂 **Folder:** `Project_1/`  
+---
+
+## 📈 Project 1: Data Science Salary Dashboard
+
+📂 **Folder:** [`Project_1_Salary_Dashboard`](Project_1_Salary_Dashboard/)  
 📄 **Workbook:** `Salary_Dashboard_Project_23-25.xlsx`
 
-This project is an interactive Excel dashboard that helps users explore salary data for data-related jobs.
+This project is an interactive Excel dashboard that allows users to explore salary information for data-related roles.
 
-The dashboard allows users to filter by:
+The dashboard lets users filter salary data by:
 
 - Job title
 - Country
 - Employment type
 
-It also shows key summary cards such as median salary, top job platform, and total job count.
+It also includes KPI cards for quick summary insights, including median salary, top job platform, and total job count.
 
-### 🔍 Main Features
+### 🔍 Key Features
 
 - Interactive salary calculator
-- Dropdown filters for job title, country, and job type
+- Dropdown filters for job title, country, and employment type
 - Salary comparison by job title
 - Salary comparison by employment type
-- Country-based map visualization
-- KPI cards for quick insights
+- Country-based salary map
+- KPI cards for median salary, top platform, and job count
 
-### 🛠️ Excel Skills Used
+### 🛠️ Skills Used
 
 - Excel formulas
 - Data validation
-- PivotTables
 - Charts
-- Dashboard layout/design
+- Dashboard design
+- Data cleaning
 - Interactive filtering
-- Data cleaning and formatting
 
 ### 💡 Key Takeaways
 
-- Senior and engineering-related data roles generally show higher median salaries.
-- Salary levels can change depending on country, job title, and employment type.
-- Interactive dashboards make it easier to explore job market data quickly.
+- Senior and engineering-focused data roles generally show higher median salaries.
+- Salary varies depending on country, job title, and employment type.
+- Interactive dashboards make job market data easier to explore and understand.
 
 ---
 
-## 2️⃣ Job Skills and Salary Analysis
+## 🧠 Project 2: Job Skills & Salary Analysis
 
-📂 **Folder:** `Project_2/`  
+📂 **Folder:** [`Project_2_Job_Skills_Analysis`](Project_2_Job_Skills_Analysis/)  
 📄 **Workbook:** `Project_2.xlsx`
 
-This project analyzes the relationship between job skills, salaries, job titles, and skill demand in the data job market.
+This project analyzes the relationship between job skills, salary, job titles, and skill demand in the data job market.
 
-The workbook includes multiple analysis sheets focused on skill demand, salary comparison, and job role trends.
+The workbook includes multiple analysis sheets using PivotTables, PivotCharts, slicers, Power Pivot, and DAX measures.
 
-### 🔍 Main Questions Explored
+### 🔍 Questions Explored
 
-- What skills are most commonly requested in data-related jobs?
-- Which skills are connected with higher salaries?
-- Do jobs that request more skills also pay more?
-- How do salaries compare between U.S. and non-U.S. job postings?
+- What skills are most commonly requested for data-related jobs?
+- Which skills are associated with higher salaries?
+- Do jobs that request more skills tend to pay more?
+- How do U.S. and non-U.S. salaries compare?
 
-### 📊 Main Analyses
+### 📊 Analysis Included
 
-- Top skills requested for data jobs
+- Top requested skills in job postings
 - Median salary by job title
 - Salary comparison between U.S. and non-U.S. roles
+- Skill likelihood by role
 - Relationship between salary and number of skills requested
-- Skill likelihood compared with median salary
+- Skill salary comparison using combo charts
 
-### 🛠️ Excel Skills Used
+### 🛠️ Skills Used
 
 - PivotTables
 - PivotCharts
@@ -95,13 +89,13 @@ The workbook includes multiple analysis sheets focused on skill demand, salary c
 - Power Pivot
 - Data model relationships
 - DAX measures
-- Combo charts
 - Scatter plots
+- Combo charts
 - Salary and skill analysis
 
 ### 💡 Key Takeaways
 
-- SQL and Excel are among the most common skills requested for data analyst roles.
+- SQL and Excel are among the most commonly requested skills for data analyst roles.
 - Python, Tableau, Power BI, and SQL appear frequently across data job postings.
 - Higher-paying roles often require stronger technical skill sets.
 - The most common skills are not always the highest-paying skills.
@@ -122,7 +116,7 @@ The workbook includes multiple analysis sheets focused on skill demand, salary c
 
 ## 📚 What I Learned
 
-Through these projects, I practiced turning raw job market data into useful analysis and dashboards.
+Through these projects, I practiced turning raw job market data into clear Excel analysis and dashboards.
 
 I learned how to:
 
@@ -130,13 +124,13 @@ I learned how to:
 - Build PivotTables and PivotCharts
 - Create interactive dashboards
 - Use slicers and filters
-- Build relationships with Power Pivot
-- Write basic DAX measures
-- Present insights in a clear and readable way
+- Build data model relationships
+- Write DAX measures
+- Present findings in a clear and readable format
 
 ---
 
-## 🎯 Purpose
+## 🎯 Portfolio Purpose
 
 These projects are part of my data analytics portfolio as I continue building skills for entry-level roles such as:
 
@@ -144,4 +138,4 @@ These projects are part of my data analytics portfolio as I continue building sk
 - Business Analyst
 - Finance Analyst
 
-The goal of this repository is to show my progress in Excel, data analysis, and dashboard creation.
+This repository is intended to show my progress in Excel, data analysis, dashboard creation, and business-style reporting.
