@@ -1,8 +1,8 @@
 # 📊 Excel Data Analytics Projects
 
-This repository contains Excel data analytics projects focused on **job market salaries, skill demand, and data-related career trends**.
+This repository contains two Excel data analytics projects focused on **job market salaries, skill demand, and data-related career trends**.
 
-The purpose of this portfolio is to demonstrate my ability to use Excel for data cleaning, analysis, visualization, and dashboard creation. These projects were built using PivotTables, PivotCharts, slicers, Power Query, Power Pivot, DAX, and interactive dashboard design.
+The goal of this portfolio is to demonstrate my ability to use Excel for data cleaning, analysis, visualization, and dashboard creation. These projects use tools such as **PivotTables, PivotCharts, slicers, Power Query, Power Pivot, DAX, data validation, and interactive dashboard design**.
 
 ---
 
@@ -10,8 +10,8 @@ The purpose of this portfolio is to demonstrate my ability to use Excel for data
 
 | Project | Description | Skills Demonstrated |
 |---|---|---|
-| [📈 Data Science Salary Dashboard](Project_1_Salary_Dashboard/) | Interactive Excel dashboard for exploring salary trends by job title, country, and employment type | Dashboard design, Excel formulas, charts, data validation, interactive filtering |
-| [🧠 Job Skills & Salary Analysis](Project_2_Job_Skills_Analysis/) | Excel analysis workbook exploring skill demand, salary trends, and job role comparisons | PivotTables, PivotCharts, slicers, Power Pivot, DAX, data modeling |
+| [📈 Data Science Salary Dashboard](Project_1_Salary_Dashboard/) | Interactive Excel dashboard for exploring salary trends by job title, country, and employment type | Dashboard design, Excel formulas, data validation, charts, interactive filtering |
+| [🧠 Job Skills & Salary Analysis](Project_2_Job_Skills_Analysis/) | Excel analysis workbook exploring skill demand, salary trends, and job role comparisons | PivotTables, PivotCharts, slicers, Power Query, Power Pivot, DAX, data modeling |
 
 ---
 
@@ -20,24 +20,32 @@ The purpose of this portfolio is to demonstrate my ability to use Excel for data
 📂 **Folder:** [`Project_1_Salary_Dashboard`](Project_1_Salary_Dashboard/)  
 📄 **Workbook:** `Salary_Dashboard_Project_23-25.xlsx`
 
-This project is an interactive Excel dashboard that allows users to explore salary information for data-related roles.
+This project is an interactive Excel dashboard that allows users to explore salary data for data-related jobs.
 
-The dashboard lets users filter salary data by:
+Users can filter the dashboard by:
 
 - Job title
 - Country
 - Employment type
 
-It also includes KPI cards for quick summary insights, including median salary, top job platform, and total job count.
+The dashboard also includes summary KPI cards for **median salary**, **top job platform**, and **job count**.
+
+### 📸 Dashboard Preview
+
+![Salary Dashboard](Project_1_Salary_Dashboard/screenshots/1_Salary_Dashboard.png)
+
+### 🎥 Interactive Dashboard Demo
+
+![Salary Dashboard Demo](Project_1_Salary_Dashboard/screenshots/1_Salary_Dashboard_Final_Dashboard.gif)
 
 ### 🔍 Key Features
 
-- Interactive salary calculator
+- Interactive salary dashboard
 - Dropdown filters for job title, country, and employment type
 - Salary comparison by job title
 - Salary comparison by employment type
 - Country-based salary map
-- KPI cards for median salary, top platform, and job count
+- KPI cards for median salary, top job platform, and job count
 
 ### 🛠️ Skills Used
 
@@ -51,7 +59,7 @@ It also includes KPI cards for quick summary insights, including median salary, 
 ### 💡 Key Takeaways
 
 - Senior and engineering-focused data roles generally show higher median salaries.
-- Salary varies depending on country, job title, and employment type.
+- Salary varies depending on job title, country, and employment type.
 - Interactive dashboards make job market data easier to explore and understand.
 
 ---
@@ -61,9 +69,9 @@ It also includes KPI cards for quick summary insights, including median salary, 
 📂 **Folder:** [`Project_2_Job_Skills_Analysis`](Project_2_Job_Skills_Analysis/)  
 📄 **Workbook:** `Project_2.xlsx`
 
-This project analyzes the relationship between job skills, salary, job titles, and skill demand in the data job market.
+This project analyzes the relationship between job skills, salaries, job titles, and skill demand in the data job market.
 
-The workbook includes multiple analysis sheets using PivotTables, PivotCharts, slicers, Power Pivot, and DAX measures.
+The workbook includes multiple analysis sheets using **PivotTables, PivotCharts, slicers, Power Query, Power Pivot, and DAX measures**.
 
 ### 🔍 Questions Explored
 
@@ -71,38 +79,73 @@ The workbook includes multiple analysis sheets using PivotTables, PivotCharts, s
 - Which skills are associated with higher salaries?
 - Do jobs that request more skills tend to pay more?
 - How do U.S. and non-U.S. salaries compare?
-
-### 📊 Analysis Included
-
-- Top requested skills in job postings
-- Median salary by job title
-- Salary comparison between U.S. and non-U.S. roles
-- Skill likelihood by role
-- Relationship between salary and number of skills requested
-- Skill salary comparison using combo charts
-
-### 🛠️ Skills Used
-
-- PivotTables
-- PivotCharts
-- Slicers
-- Power Pivot
-- Data model relationships
-- DAX measures
-- Scatter plots
-- Combo charts
-- Salary and skill analysis
-
-### 💡 Key Takeaways
-
-- SQL and Excel are among the most commonly requested skills for data analyst roles.
-- Python, Tableau, Power BI, and SQL appear frequently across data job postings.
-- Higher-paying roles often require stronger technical skill sets.
-- The most common skills are not always the highest-paying skills.
+- How does skill demand compare with median salary?
 
 ---
 
-## 🧰 Tools Used
+### 📊 Salary vs. Skills Requested
+
+![Salary vs Skills](Project_2_Job_Skills_Analysis/screenshots/2_Project_Analysis_Chart1.png)
+
+This scatter plot compares **median salary** with the **average number of skills requested per job posting**.
+
+### 🌎 U.S. vs. Non-U.S. Salary Analysis
+
+![Salary Country Analysis](Project_2_Job_Skills_Analysis/screenshots/2_Project_Analysis_Chart2.png)
+
+This analysis compares median salaries by job title between U.S. and non-U.S. roles.
+
+### 🧰 Top Skills in Job Postings
+
+![Top Skills](Project_2_Job_Skills_Analysis/screenshots/2_Project_Analysis_Chart3.png)
+
+This chart shows the most commonly requested skills in data-related job postings.
+
+### 💰 Skill Salary Analysis
+
+![Skills Salary Analysis](Project_2_Job_Skills_Analysis/screenshots/2_Project_Analysis_Chart4.png)
+
+This analysis compares skill likelihood with median salary to understand which skills are both common and valuable.
+
+---
+
+## 🧹 Power Query Data Cleaning
+
+Power Query was used to clean and transform the raw job market data before analysis.
+
+### Job Posting Dataset Cleaning
+
+![Power Query Cleaning](Project_2_Job_Skills_Analysis/screenshots/2_Project_Analysis_Screenshot4.png)
+
+### Skills Dataset Cleaning
+
+![Skills Query Cleaning](Project_2_Job_Skills_Analysis/screenshots/2_Project_Analysis_Screenshot5.png)
+
+Cleaning steps included:
+
+- Promoting headers
+- Changing data types
+- Replacing values
+- Splitting skill columns by delimiter
+- Unpivoting skill columns
+- Trimming and standardizing skill names
+- Creating conditional columns
+- Removing unnecessary columns
+- Renaming final columns
+
+---
+
+## 🔗 Power Pivot Data Model
+
+![Power Pivot Data Model](Project_2_Job_Skills_Analysis/screenshots/2_Project_Analysis_Screenshot5.png)
+
+Power Pivot was used to build a relationship between the job posting table and the job skills table using `job_id`.
+
+This allowed the analysis to connect each job posting with its related skills and build PivotTables across multiple tables.
+
+---
+
+## 🛠️ Tools Used
 
 - Microsoft Excel
 - PivotTables
@@ -110,6 +153,8 @@ The workbook includes multiple analysis sheets using PivotTables, PivotCharts, s
 - Power Query
 - Power Pivot
 - DAX
+- Data validation
+- Slicers
 - GitHub
 
 ---
@@ -124,8 +169,9 @@ I learned how to:
 - Build PivotTables and PivotCharts
 - Create interactive dashboards
 - Use slicers and filters
-- Build data model relationships
+- Build relationships with Power Pivot
 - Write DAX measures
+- Analyze salary and skill trends
 - Present findings in a clear and readable format
 
 ---
